@@ -77,6 +77,7 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   return str1.lengh === str2.lengh;
+
 }
 
 function menosQueNoventa(num) {
@@ -193,6 +194,7 @@ function agregarSimboloExclamacion(str) {
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
   return str + '!';
+
 }
 
 function combinarNombres(nombre, apellido) {
