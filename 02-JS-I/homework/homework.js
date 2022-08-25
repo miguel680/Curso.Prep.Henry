@@ -76,7 +76,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.lengh === str2.lengh;
+  return str1.length === str2.length;
 
 }
 
@@ -182,9 +182,9 @@ function esPositivo(numero) {
   if(numero === 0) {
   return false;
 } else if(numero > 0) {
-  return "es positivo";
+  return "Es positivo";
 } else {
-  return "es negativo";
+  return "Es negativo";
 }
   
 }
@@ -210,7 +210,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'hola ' + nombre + '!';
+  return 'Hola ' + nombre + '!';
   
 }
 
@@ -254,14 +254,13 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.lengh > 1){
-  return "dato incorrecto";
+  return "Dato incorrecto";
 } 
   if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'){
   return "es vocal";
 } 
-  return "dato incorrecto";
+  return "Dato incorrecto";
 
-  
 }
 
 
