@@ -76,7 +76,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.lengh === str2.lengh
+  return str1.lengh === str2.lengh;
 }
 
 function menosQueNoventa(num) {
@@ -183,7 +183,8 @@ function esPositivo(numero) {
 } else if(numero > 0) {
   return "es positivo";
 } else {
-  return "es negativo"}
+  return "es negativo";
+}
   
 }
 
@@ -207,7 +208,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'hola' + nombre + '!'
+  return 'hola ' + nombre + '!';
   
 }
 
@@ -222,7 +223,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado * 4
+  return lado * 4;
   
 }
 
@@ -230,7 +231,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  return (base * altura)/2
+  return (base * altura)/2;
 
 }
 
@@ -252,7 +253,8 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra.lengh > 1){
   return "dato incorrecto";
-} if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'){
+} 
+  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'){
   return "es vocal";
 } 
   return "dato incorrecto";
